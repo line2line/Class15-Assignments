@@ -9,4 +9,6 @@ for (( i=1:i<50:1++ ))
 do 
 	if(( i%2==0 ))
 	then 
+	
+		echo "$i is even"
 
