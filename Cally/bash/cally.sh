@@ -11,4 +11,10 @@ do
 	then 
 	
 		echo "$i is even"
+	else
+		echo "$i is odd"
+
+fi
+
+	done
 
