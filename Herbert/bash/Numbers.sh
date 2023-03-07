@@ -11,7 +11,7 @@ num=$(( 4 % 2 ))
 for count in {1..50}
 do
 	echo $count
-	if "$num = 0"
+	if "$num `=` 0"
 then
         echo "$count = Even Number"
 else
