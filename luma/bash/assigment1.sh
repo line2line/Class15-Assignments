@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#create a simple bash script that prints number 1 to 50 and indicate whether they are even or odd numbers 
+#to create a simple bash script that prints number 1 to 50 and indicate whether they are even or odd numbers 
 
 for i in {1..50}
 do
