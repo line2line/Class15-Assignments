@@ -6,10 +6,8 @@
 
 #For loop
 
-count=1
-
-for $count in {1..50}
+for count in {0..49}
 do
-	count++
+	((count++))
 	echo $count
 done
