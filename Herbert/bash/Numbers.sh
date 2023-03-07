@@ -4,4 +4,12 @@
 
 #applying the For, untill and while loop
 
+#For loop
 
+count=1
+
+for $count in {1..50}
+do
+	count++
+	echo $count
+done
