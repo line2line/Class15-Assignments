@@ -6,16 +6,14 @@
 
 #For loop
 
-num=$(( 4 % 2 ))
 
 for count in {1..50}
 do
-	echo $count
-	if "$num `=` 0"
+	if [ $(( $count % 2 )) = 0 ]
 then
-        echo "$count = Even Number"
+        echo $count = Even Number
 else
-        echo "$count = Odd Number"
+        echo $count = Odd Number
 fi
 
 done
