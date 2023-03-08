@@ -8,3 +8,4 @@ echo "$1 > $2"
 else
 the second argument is greater than the first argument
 echo "$2 > $1"
+fi
