@@ -6,4 +6,5 @@
 for x in (1..50)
 do 
 	if (( $x % 2 == 0))
-
+	then
+		echo "$x is even"
