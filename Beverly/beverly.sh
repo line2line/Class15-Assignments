@@ -39,5 +39,21 @@ fi
 
 #!/bin/bash
 
+for count in {1..50}
+do
+        if  [ $(echo $(( count % 2)) ) == 1 ]
+then
+        echo "$count is odd."
+        sleep 1
+elif
+        [ $(echo $(( count % 2)) ) == 0 ]
+then
+        echo "$count is even."
+        sleep 1
+fi
+done
+
+sleep 2
+echo "All done!"
 
 
