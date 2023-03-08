@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Write a bash script that print numbers 1 to 50 and indicate wether there are even or odds
+
+# lets define the range of number using for loops
+for x in (1..50)
+
