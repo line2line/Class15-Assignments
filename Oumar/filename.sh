@@ -8,3 +8,4 @@ then
        echo "please provide a file name"
 read -p "file name" dir 
 fi
+echo `ls -la $dir`
