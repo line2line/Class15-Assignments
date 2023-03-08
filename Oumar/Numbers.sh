@@ -4,4 +4,6 @@
 
 # lets define the range of number using for loops
 for x in (1..50)
+do 
+	if (( $x % 2 == 0))
 
