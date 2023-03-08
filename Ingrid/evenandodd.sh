@@ -12,4 +12,6 @@ do
 		echo "$num is even number"
 	else
 		echo "$num is odd number"
+	fi
+done
 
