@@ -6,6 +6,8 @@
 if [ $# -eq 0 ] 
 then
        echo "please provide a file name"
-read -p "file name" dir 
+read -p "file name " dir 
 fi
 echo `ls -la $dir`
+if [ -d "$dir" ]
+then
