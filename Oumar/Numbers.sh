@@ -10,3 +10,5 @@ do
 		echo "$x is even"
 	else 
 		echo "$x is odd"
+	fi 
+done
