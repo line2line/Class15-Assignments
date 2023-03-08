@@ -4,4 +4,7 @@
 #print the permission to the screen, say if it is aregular file or directory.
 
 if [ $# -eq 0 ] 
-then 
+then
+       echo "please provide a file name"
+read -p "file name" dir 
+fi
