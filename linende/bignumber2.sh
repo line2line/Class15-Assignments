@@ -45,5 +45,11 @@ echo " add 2"
 echo "type the total"
 read num6
 
+if [ $num5 -gt $num6 ]
+then
+        echo "the bigger is $num5"
+else
+        echo "the bigger number is $num6"
+fi
 
 
