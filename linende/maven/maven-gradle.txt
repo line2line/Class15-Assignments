@@ -1,4 +1,5 @@
-#Let us find the difference between Maven and Gradle
+Let us find the difference between Maven and Gradle
 
-MAVEN DEFINITION
+Gradle Defnition
+Maven is a popular open-source build tool that the Apache Group developed for building, publishing, and deploying many projects. Maven is written in Java and is used to create projects written in C++, Scala, Ruby, etc... The tool is used to build and manage any Java-based project.
  
