@@ -4,4 +4,7 @@ Maven Defnition
 Maven is a popular open-source build tool that the Apache Group developed for building, publishing, and deploying many projects. Maven is written in Java and is used to create projects written in C++, Scala, Ruby, etc... The tool is used to build and manage any Java-based project.
  
 Gradle Definition
-Gradle is an open-source build automation tool flexible enough to build almost any type of software. Gradle makes few assumptions about what you’re trying to build or how to build it. This makes Gradle particularly flexible.
+Gradle is an open-source build automation tool flexible enough to build almost any type of software. Gradle makes few assumptions about what you’re trying to build or how to build it. This makes Gradle particularly flexibleel that c
+
+Comparison points between both builds tools
+First of all both are open-source builds tools. Maven allows one to override a dependency, but only by version and Gradle is between 7 and 85 times faster than Gradle when building incremental changes; it runs on JVM. Gradle also have a huge performence to avoid irrelevent and superfluous works that we do not necesarily need and simply run our works. Gradle buils projects. Also, it is true that Maven brings upan inflexible model that build customization. Then, as long you do not have any difficult task to ask when you build your project you are definitely fine but as soon you start complicated program or have any other hard instruction to ask the system becomes so complicated and does not make thing easier to build. all that even makes think unworkable, even though it is easy to work and build on Maven. While, Gradle, on the other hand, is built with an empowered and responsible user in mind. 
